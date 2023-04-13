@@ -21,10 +21,10 @@ Perform the edge detection on the image
 Display the original images with the edge detected images
  
 ## Program:
-```
+
 ## Developed by: Senthil Kumar S
 ## Reg No: 212221230091
-```
+
 ### Import the packages:
 ```python
 import cv2
