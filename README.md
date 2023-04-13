@@ -12,9 +12,9 @@ Import the necessary modules
 ### Step2:
 Perform the edge detection on the image
 
--Sobel<br>
--Laplacian<br>
--Canny
+(i) Sobel<br>
+(ii) Laplacian<br>
+(iii) Canny
 <br>
 
 ### Step3:
@@ -32,7 +32,7 @@ import numpy as np
 import matplotlib.pyplot as plt 
 ```
 ### Load the image, Convert to grayscale and remove noise:
-```
+```python
 pic=cv2.imread('er1.jpg')
 cv2.imshow('Original',pic)
 
@@ -46,7 +46,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 ### SOBEL EDGE DETECTOR:
-```
+```python
 sobelx=cv2.Sobel(img,cv2.CV_64F,1,0,ksize=5)
 sobely=cv2.Sobel(img,cv2.CV_64F,0,1,ksize=5)
 sobelxy=cv2.Sobel(img,cv2.CV_64F,1,1,ksize=5)
@@ -68,7 +68,7 @@ plt.title('Sobelxy'),plt.xticks([]),plt.yticks([])
 plt.show()
 ```
 ### LAPLACIAN EDGE DETECTOR:
-```
+```python
 laplacian=cv2.Laplacian(img,cv2.CV_64F)
 plt.figure(1)
 plt.imshow(laplacian,cmap='gray')
@@ -77,7 +77,7 @@ plt.show()
 
 ```
 ### CANNY EDGE DETECTOR:
-```
+```python
 canny_edges=cv2.Canny(img,120,150)
 plt.figure(1)
 plt.imshow(canny_edges,cmap='gray')
@@ -89,13 +89,10 @@ plt.show()
 ## Output:
 ### SOBEL EDGE DETECTOR:
 
-<br>
 ![eren1](https://user-images.githubusercontent.com/93860256/231750192-0e6f1de3-93ba-4fb6-a54f-40473bb4bcf5.png)
 ![eren2](https://user-images.githubusercontent.com/93860256/231750196-ad8539fd-b999-4994-a351-c8a2c041b70d.png)
 ![eren3](https://user-images.githubusercontent.com/93860256/231750200-a8b3fad3-0998-4f13-b9aa-28aa5c227128.png)
 ![eren4](https://user-images.githubusercontent.com/93860256/231750203-4b5d5f10-8b0a-4f92-8333-46ecc2f6ba03.png)
-<br>
-
 
 
 ### LAPLACIAN EDGE DETECTOR:
