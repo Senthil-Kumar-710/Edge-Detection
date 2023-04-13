@@ -89,17 +89,17 @@ plt.show()
 ## Output:
 ### SOBEL EDGE DETECTOR:
 
-![eren1](https://user-images.githubusercontent.com/93860256/231750192-0e6f1de3-93ba-4fb6-a54f-40473bb4bcf5.png)
-![eren2](https://user-images.githubusercontent.com/93860256/231750196-ad8539fd-b999-4994-a351-c8a2c041b70d.png)
-![eren3](https://user-images.githubusercontent.com/93860256/231750200-a8b3fad3-0998-4f13-b9aa-28aa5c227128.png)
-![eren4](https://user-images.githubusercontent.com/93860256/231750203-4b5d5f10-8b0a-4f92-8333-46ecc2f6ba03.png)
+![eren1](https://user-images.githubusercontent.com/93860256/231751635-0f937712-c0c5-421b-bf25-2b6436121b4b.jpg)
+![eren2](https://user-images.githubusercontent.com/93860256/231751632-4b52e415-6129-4837-9335-be26af56941b.jpg)
+![eren3](https://user-images.githubusercontent.com/93860256/231751629-1a8896aa-1eb2-4a1d-95e9-a7c650732ea3.jpg)
+![eren4](https://user-images.githubusercontent.com/93860256/231751622-a34c2d69-248f-4bb2-bc5f-24f023f148aa.jpg)
 
 
 ### LAPLACIAN EDGE DETECTOR:
 
 <br>
 
-![eren5](https://user-images.githubusercontent.com/93860256/231750204-1d05a4a1-3eb5-4a58-b99d-8813cff9c32f.png)
+![eren5](https://user-images.githubusercontent.com/93860256/231751643-5e890b23-c9b4-4ce1-b88e-572354aa5322.jpg)
 <br>
 
 
@@ -108,7 +108,7 @@ plt.show()
 
 <br>
 
-![eren6](https://user-images.githubusercontent.com/93860256/231750212-02de5edb-f1c4-4dd9-ada7-4bad44438bae.png)
+![eren6](https://user-images.githubusercontent.com/93860256/231751639-81a3aee1-8f65-409e-b081-fd174ffd32df.jpg)
 <br>
 
 
